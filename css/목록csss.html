@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>목록 관련 CSS</title>
+  <style>
+    *{margin:0; padding:0}
+    body{margin:30px}
+    li{background-color: #ccc;}
+    ol,ul{
+      border: 1px solid #f00; 
+      padding-left:3em; /*ol,ul 블릿 글머리표를 화면에 표시되는게 문제일 때는 padding-left 확인*/
+      overflow: hidden;
+      list-style: none;/*ol, ul의 글머리표를 사용x*/
+    }
+  </style>
+</head>
+<body>
+  <!-- ul>li*3>{menu$} -->
+  <ul>
+    <li>menu1</li>
+    <li>menu2</li>
+    <li>menu3</li>
+  </ul>
+  <ol>
+    <li>menu1</li>
+    <li>menu2</li>
+    <li>menu3</li>
+  </ol>
+</body>
+</html>
